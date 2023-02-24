@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="panefinal" prefHeight="598.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FinalBox">
+   <children>
+      <Label layoutX="14.0" prefHeight="43.0" prefWidth="553.0" text="You have brought the tickets Successfully!" textFill="#0ddd22">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="538.0" mnemonicParsing="false" onAction="#backHome" prefHeight="30.0" prefWidth="86.0" text="BACK" textFill="#da0909">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="141.0" layoutY="90.0" mnemonicParsing="false" onAction="#download" text="DOWNLOAD THE TICKET">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <ProgressIndicator fx:id="progressIndicator" layoutX="205.0" layoutY="355.0" prefHeight="130.0" prefWidth="104.0" progress="0.0" />
+      <Label fx:id="msg" layoutX="170.0" layoutY="506.0" prefHeight="39.0" prefWidth="277.0">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

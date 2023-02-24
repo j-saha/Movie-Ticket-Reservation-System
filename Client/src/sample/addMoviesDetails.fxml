@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="paneaddMoviesDetails" prefHeight="574.0" prefWidth="521.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.addMoviesDetailsController">
+    <children>
+        <Button fx:id="btnAdd" layoutX="333.0" layoutY="491.0" mnemonicParsing="false" onAction="#add" prefHeight="51.0" prefWidth="128.0" text="ADD" />
+        <TextField fx:id="txtmovieName" layoutX="74.0" layoutY="112.0" prefHeight="26.0" prefWidth="366.0" promptText="MOVIE NAME" />
+        <TextField fx:id="txtdirectorName" layoutX="74.0" layoutY="176.0" prefHeight="26.0" prefWidth="366.0" promptText="DIRECTOR NAME" />
+        <TextField fx:id="txtRating" layoutX="74.0" layoutY="241.0" prefHeight="26.0" prefWidth="366.0" promptText="IMDB RATING" />
+        <TextField fx:id="txtCast" layoutX="74.0" layoutY="310.0" prefHeight="26.0" prefWidth="366.0" promptText="CAST" />
+        <TextField fx:id="txtPrice" layoutX="74.0" layoutY="377.0" prefHeight="26.0" prefWidth="366.0" promptText="TICKET PRICE" />
+        <Button fx:id="btnPoster" layoutX="333.0" layoutY="428.0" mnemonicParsing="false" onAction="#selectPoster" text="SELECT POSTER" />
+        <DatePicker fx:id="startDate" layoutX="74.0" layoutY="428.0" promptText="SELECT START DATE" />
+        <DatePicker fx:id="endDate" layoutX="74.0" layoutY="465.0" promptText="SELECT END DATE" />
+      <Label fx:id="result" layoutX="6.0" layoutY="508.0" prefHeight="42.0" prefWidth="320.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

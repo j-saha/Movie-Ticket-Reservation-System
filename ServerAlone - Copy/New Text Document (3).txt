@@ -1,0 +1,13 @@
+#L#j##j##admin
+#L#a##a##admin
+#L#o##o##user
+#L#y##y##admin
+
+
+#S#logout##It_is_a_text
+#S#show##It_is_a_text
+
+
+#C#y##Hi, how are you ?##capture.jpg
+
+#B#This is a brdcst msg

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="buyticket" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.buyticketController">
+   <children>
+      <Button fx:id="btnyes" layoutX="328.0" layoutY="155.0" mnemonicParsing="false" onAction="#confirmTicket" text="CONFIRM" textFill="#1218d3">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+      <Button fx:id="btnno" layoutX="14.0" layoutY="353.0" mnemonicParsing="false" onAction="#cancelTicket" text="BACK" textFill="#6f2525">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="281.0" layoutY="63.0" prefHeight="46.0" prefWidth="337.0" text="How many tickets do you want to buy? " textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelmsg" layoutX="281.0" layoutY="271.0" prefHeight="39.0" prefWidth="407.0" text="*You can't cancel the ticket later " textFill="#ff1b00">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="numOftickets" layoutX="312.0" layoutY="109.0" prefHeight="31.0" prefWidth="160.0" promptText="Enter a number" />
+      <Label fx:id="ticketalert" layoutX="250.0" layoutY="231.0" prefHeight="31.0" prefWidth="469.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+                    ONLINE TICKET RESERVATION SYSTEM
+
+
+
+USER NAME : sayem
+
+FULL NAME : SAYEM HASAN
+
+EMAIL ID : sayim.hasan30@gmail.com
+
+PHONE NUMBER : 01626187505
+
+MOVIE NAME : Venom
+
+DATE : 2019-02-28
+
+SHOW TIME : 01:30 PM
+
+Hall number : 2
+
+NUMBER OF TICKETS : 3
+
+Total COST : 750
+
+
+
+*Please bring the printed copy of this document

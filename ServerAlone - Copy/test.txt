@@ -1,0 +1,6 @@
+j j admin
+o o user
+y y admin
+s s user
+a a admin
+h h user

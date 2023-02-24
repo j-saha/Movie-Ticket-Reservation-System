@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="412.0" prefWidth="731.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.History">
+   <children>
+      <Label layoutX="29.0" layoutY="14.0" prefHeight="35.0" prefWidth="542.0" text="You have already brought this tickets:" textFill="#198019">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="20.0" layoutY="365.0" mnemonicParsing="false" onAction="#back" text="BACK" textFill="#da0b0b">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tableView" layoutY="60.0" prefHeight="292.0" prefWidth="731.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="60.0">
+        <columns>
+          <TableColumn fx:id="colid" prefWidth="60.0" style="-fx-alignment: CENTER;" text="NO." />
+          <TableColumn fx:id="colname" prefWidth="212.0" style="-fx-alignment: CENTER;" text="MOVIE NAME" />
+            <TableColumn fx:id="coldate" prefWidth="137.0" style="-fx-alignment: CENTER;" text="SHOW DATE" />
+            <TableColumn fx:id="coltime" prefWidth="121.0" style="-fx-alignment: CENTER;" text="SHOW TIME" />
+            <TableColumn fx:id="colnum" prefWidth="198.0" style="-fx-alignment: CENTER;" text="NUMBER OF TICKETS" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

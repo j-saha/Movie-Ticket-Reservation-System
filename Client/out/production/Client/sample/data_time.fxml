@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="panedate" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.datatime">
+   <children>
+      <DatePicker fx:id="datePicker" layoutX="37.0" layoutY="111.0" promptText="Select the date" showWeekNumbers="true" />
+      <Button fx:id="btnconfirm" layoutX="37.0" layoutY="200.0" mnemonicParsing="false" onAction="#confirm" text="CONFIRM" textFill="#1edd13">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnback" layoutX="14.0" layoutY="347.0" mnemonicParsing="false" onAction="#back" text="BACK" textFill="#e10909">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="selectTime" layoutX="343.0" layoutY="111.0" prefHeight="31.0" prefWidth="187.0" />
+      <Label layoutX="37.0" layoutY="71.0" prefHeight="31.0" prefWidth="218.0" text="Select The Date :" textFill="#10c8e4">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="324.0" layoutY="71.0" prefHeight="31.0" prefWidth="187.0" text="Select The Time :" textFill="#10c8e4">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelmsg" layoutX="37.0" layoutY="288.0" prefHeight="59.0" prefWidth="396.0" textFill="LIME">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

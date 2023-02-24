@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="paneRegister" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="572.0" prefWidth="486.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.registerController">
+    <children>
+          <TextField fx:id="username" layoutX="197.0" layoutY="60.0" prefHeight="26.0" prefWidth="188.0" promptText="Username" />
+          <TextField fx:id="fullname" layoutX="196.0" layoutY="114.0" prefHeight="26.0" prefWidth="188.0" promptText="Full Name" />
+          <TextField fx:id="email" layoutX="196.0" layoutY="171.0" prefHeight="26.0" prefWidth="188.0" promptText="Email ID" />
+          <PasswordField fx:id="password" layoutX="196.0" layoutY="225.0" prefHeight="26.0" prefWidth="188.0" promptText="Password" />
+          <TextField fx:id="phone" layoutX="197.0" layoutY="279.0" prefHeight="26.0" prefWidth="188.0" promptText="Contact Number" />
+            <Button fx:id="register" layoutX="31.0" layoutY="417.0" onAction="#RegisterUser" prefHeight="40.0" prefWidth="135.0" text="REGISTER" textFill="#20f009">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Button>
+            <Button fx:id="back" layoutX="203.0" layoutY="417.0" onAction="#goBack" prefHeight="40.0" prefWidth="135.0" text="BACK" textFill="#f80b0b">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font></Button>
+      <TextField fx:id="creditCard" layoutX="196.0" layoutY="338.0" prefHeight="26.0" prefWidth="188.0" promptText="Credit Card Number" />
+      <Label fx:id="labelmsg" layoutX="7.0" layoutY="522.0" prefHeight="40.0" prefWidth="474.0" textFill="#e11515" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="5.0">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="57.0" prefHeight="26.0" prefWidth="150.0" text="ENTER YOUR USERNAME">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="119.0" prefHeight="18.0" prefWidth="135.0" text="ENTER YOUR FULLNAME">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="176.0" prefHeight="18.0" prefWidth="118.0" text="ENTER YOUR EMAIL">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="9.0" layoutY="230.0" prefHeight="18.0" prefWidth="135.0" text="ENTER A PASSWORD">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="283.0" prefHeight="18.0" prefWidth="165.0" text="ENTER YOUR CONTACT NO.">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="343.0" prefHeight="18.0" prefWidth="150.0" text="ENTER CREDIT CARD NO.">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

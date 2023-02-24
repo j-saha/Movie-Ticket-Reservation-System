@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="paneSettings" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.settingsController">
+    <children>
+        <ImageView fitHeight="88.0" fitWidth="243.0" layoutX="10.0" pickOnBounds="true" preserveRatio="true" />
+        <Button fx:id="btnhome" layoutX="10.0" layoutY="98.0" mnemonicParsing="false" onAction="#home" prefHeight="73.0" prefWidth="243.0" text="HOME" />
+        <Button fx:id="btnmovies" layoutX="10.0" layoutY="171.60000610351562" mnemonicParsing="false" onAction="#movies" prefHeight="73.0" prefWidth="243.0" text="MOVIES" />
+        <Button layoutX="10.0" layoutY="245.1999969482422" mnemonicParsing="false" prefHeight="73.0" prefWidth="243.0" text="SETTINGS" />
+        <Button fx:id="btnsignout" layoutX="10.0" layoutY="318.79998779296875" mnemonicParsing="false" onAction="#signOut" prefHeight="73.0" prefWidth="243.0" text="SIGN OUT" />
+      <Button fx:id="btnchangepass" layoutX="307.0" layoutY="230.0" mnemonicParsing="false" onAction="#changepass" text="CHANGE PASSWORD" />
+      <Label fx:id="txtresult" layoutX="259.0" layoutY="282.0" prefHeight="49.0" prefWidth="532.0" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="18.0" />
+         </font></Label>
+      <Label layoutX="632.0" layoutY="115.0" prefHeight="39.0" prefWidth="198.0" text="CHANGE PROFILE PIC" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="632.0" layoutY="173.0" mnemonicParsing="false" onAction="#selectProPic" text="SELECT PIC">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnupdate" layoutX="633.0" layoutY="223.0" mnemonicParsing="false" onAction="#proPicUpdate" prefHeight="27.0" prefWidth="95.0" text="UPDATE">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="labelpic" layoutX="746.0" layoutY="218.0" prefHeight="49.0" prefWidth="478.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="selectmsg" layoutX="739.0" layoutY="169.0" prefHeight="39.0" prefWidth="511.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtuser" layoutX="307.0" layoutY="119.0" promptText="Enter Current Password" />
+      <PasswordField fx:id="txtpass" layoutX="307.0" layoutY="173.0" promptText="Enter New Password" />
+    </children>
+</AnchorPane>
